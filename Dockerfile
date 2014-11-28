@@ -1,6 +1,6 @@
-# Version 1.0
+# Version 1.1
 
-FROM phusion/baseimage:0.9.15
+FROM abh1nav/baseimage
 
 MAINTAINER Abhinav Ajgaonkar <abhinav316@gmail.com>
 
