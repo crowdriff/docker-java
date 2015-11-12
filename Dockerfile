@@ -11,9 +11,9 @@ RUN \
   add-apt-repository -y ppa:webupd8team/java; \
   apt-get update; \
   apt-get install -y oracle-java8-installer; \
-  wget https://dl.bintray.com/sbt/debian/sbt-0.13.7.deb; \
-  dpkg -i sbt-0.13.7.deb; \
-  rm sbt-0.13.7.deb; \
+  wget https://dl.bintray.com/sbt/debian/sbt-0.13.9.deb; \
+  dpkg -i sbt-0.13.9.deb; \
+  rm sbt-0.13.9.deb; \
   apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 CMD ["/bin/bash"]
