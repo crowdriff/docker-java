@@ -15,6 +15,7 @@ RUN \
 # Install SBT
 RUN \
   wget https://dl.bintray.com/sbt/debian/sbt-0.13.7.deb; \
-  dpkg -i sbt-0.13.7.deb;
+  dpkg -i sbt-0.13.7.deb; \
+  rm sbt-0.13.7.deb;
 
 CMD ["/bin/bash"]
