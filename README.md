@@ -1,4 +1,5 @@
 docker-java
 ===========
 
-Java7 Docker image based on Phusion BaseImage. Won't do anything if you run it. This image is meant to be inherited from.
+Java8 Docker image based on Ubuntu 14.04.  
+Includes Redis and SBT 0.13.9.
